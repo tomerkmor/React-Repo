@@ -14,3 +14,4 @@ npm i
 npm run dev
 
 Happy Browsing! 🌐 Feel free to explore and have fun browsing through my projects! 😄
+![image](https://github.com/user-attachments/assets/67d8fadf-7735-4373-98a4-a2310a32e9c4)
