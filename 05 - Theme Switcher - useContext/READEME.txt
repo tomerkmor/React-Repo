@@ -1,0 +1,6 @@
+*UseState
+*UseRef
+*UsePortal
+*TailWind
+
+# I used prop drilling instead of Redux, for practise usage.

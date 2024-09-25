@@ -1,0 +1,1 @@
+loc.js - file that calculates and sorts the places based on the distances between the places and user's location.
