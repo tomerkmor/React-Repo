@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  position: fixed; /* Make the header fixed */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; /* Ensure it stays above the background */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent black background to make text more readable */
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 2rem 10%;
+  }
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+}

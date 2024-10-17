@@ -1,7 +1,6 @@
 import React, { useCallback } from "react";
 import { useState } from "react";
 import QUESTIONS from "../questions";
-import quizCompleteImg from "../assets/quiz-complete.png";
 import Question from "./Question";
 import Summary from "./Summary";
 

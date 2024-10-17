@@ -1,0 +1,15 @@
+key concepts:
+
+backend
+
+
+usePortal
+useContext
+no redux 
+
+#I have not used localStorage, so when refreshing the page the collected cart data will disappear.
+
+
+update:
+add reset button that resets the cart
+

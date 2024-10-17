@@ -99,6 +99,7 @@ function App() {
           places={pickedPlaces}
           onSelectPlace={handleStartRemovePlace}
         />
+        
         <Places
           title="Available Places"
           places={availablePlaces}
